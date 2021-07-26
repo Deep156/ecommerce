@@ -17,6 +17,11 @@
   margin: 0;
 }
 
+.checkout {
+  font-size: 40;
+  margin-bottom: 20;
+}
+
 .cards {
   background: whitesmoke;
   border-radius: 1em;

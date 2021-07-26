@@ -65,6 +65,7 @@ const Checkout = () => {
               style={{
                 width: "100%",
                 borderCollapse: "collapse",
+                //alignContent: "space-between",
               }}
             >
               <tr>
@@ -83,7 +84,7 @@ const Checkout = () => {
                       borderTopWidth: 2,
                       borderTopStyle: "solid",
                       borderTopColor: "black",
-                      borderCollapse: "collapse",
+                      // borderCollapse: "collapse",
                     }}
                   >
                     <img

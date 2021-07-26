@@ -65,10 +65,11 @@ const Checkout = () => {
               style={{
                 width: "100%",
                 borderCollapse: "collapse",
+                //alignContent: "space-between",
               }}
             >
               <tr>
-                <th>Picture</th>
+                <th style={{ padding: "0.25rem" }}>Picture</th>
                 <th>Name</th>
                 <th>Price</th>
                 <th>Quantity</th>
@@ -84,6 +85,7 @@ const Checkout = () => {
                       borderTopStyle: "solid",
                       borderTopColor: "black",
                       borderCollapse: "collapse",
+                      padding: "0.25rem",
                     }}
                   >
                     <img

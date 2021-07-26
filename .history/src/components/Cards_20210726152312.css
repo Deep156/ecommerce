@@ -2,7 +2,6 @@
 #root > div {
   height: 100vh;
   margin: 0;
-  width: 100%;
 }
 .column {
   display: flex;
@@ -15,6 +14,11 @@
   height: 100vh;
   width: 100%;
   margin: 0;
+}
+
+.checkout {
+  font-size: 40;
+  margin-bottom: 20;
 }
 
 .cards {

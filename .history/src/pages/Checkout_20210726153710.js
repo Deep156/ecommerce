@@ -65,6 +65,7 @@ const Checkout = () => {
               style={{
                 width: "100%",
                 borderCollapse: "collapse",
+                //alignContent: "space-between",
               }}
             >
               <tr>

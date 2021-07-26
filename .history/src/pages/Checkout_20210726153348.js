@@ -60,21 +60,16 @@ const Checkout = () => {
           <text style={{ fontSize: 40 }}>Checkout</text>
         </div>
         <div className="cards" style={{ height: 300, width: "100%" }}>
-          <div style={{ padding: 20 }}>
-            <table
-              style={{
-                width: "100%",
-                borderCollapse: "collapse",
-              }}
-            >
+          <div style={{ padding: 20, alignContent: "space-between" }}>
+            <table style={{ width: "100%", borderCollapse: "collapse" }}>
               <tr>
                 <th>Picture</th>
                 <th>Name</th>
                 <th>Price</th>
                 <th>Quantity</th>
                 <th>Remove</th>
-                <th>Remove One Item</th>
-                <th>Add One item</th>
+                <th>RemoveOne</th>
+                <th>Additem</th>
               </tr>
               {prev_items.map((item) => (
                 <tr style={{ borderCollapse: "collapse" }}>
@@ -92,7 +87,6 @@ const Checkout = () => {
                       style={{
                         height: "40px",
                         width: "40px",
-                        marginLeft: "20px",
                       }}
                     />
                   </td>

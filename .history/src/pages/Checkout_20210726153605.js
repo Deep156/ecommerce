@@ -65,6 +65,7 @@ const Checkout = () => {
               style={{
                 width: "100%",
                 borderCollapse: "collapse",
+                //alignContent: "space-between",
               }}
             >
               <tr>
@@ -73,8 +74,8 @@ const Checkout = () => {
                 <th>Price</th>
                 <th>Quantity</th>
                 <th>Remove</th>
-                <th>Remove One Item</th>
-                <th>Add One item</th>
+                <th>RemoveOne</th>
+                <th>Additem</th>
               </tr>
               {prev_items.map((item) => (
                 <tr style={{ borderCollapse: "collapse" }}>
@@ -92,7 +93,7 @@ const Checkout = () => {
                       style={{
                         height: "40px",
                         width: "40px",
-                        marginLeft: "20px",
+                        marginLeft: "100",
                       }}
                     />
                   </td>

@@ -65,10 +65,11 @@ const Checkout = () => {
               style={{
                 width: "100%",
                 borderCollapse: "collapse",
+                //alignContent: "space-between",
               }}
             >
               <tr>
-                <th>Picture</th>
+                <th style={{ padding: "0.25rem" }}>Picture</th>
                 <th>Name</th>
                 <th>Price</th>
                 <th>Quantity</th>
@@ -84,6 +85,7 @@ const Checkout = () => {
                       borderTopStyle: "solid",
                       borderTopColor: "black",
                       borderCollapse: "collapse",
+                      padding: "0.25rem",
                     }}
                   >
                     <img
@@ -103,6 +105,7 @@ const Checkout = () => {
                       borderTopStyle: "solid",
                       borderTopColor: "black",
                       borderCollapse: "collapse",
+                      padding: "0.25rem",
                     }}
                   >
                     {item.name}
@@ -113,6 +116,7 @@ const Checkout = () => {
                       borderTopStyle: "solid",
                       borderTopColor: "black",
                       borderCollapse: "collapse",
+                      padding: "0.25rem",
                     }}
                   >
                     {item.price * item.quantity}
@@ -123,6 +127,7 @@ const Checkout = () => {
                       borderTopStyle: "solid",
                       borderTopColor: "black",
                       borderCollapse: "collapse",
+                      padding: "0.25rem",
                     }}
                   >
                     {item.quantity}
@@ -133,6 +138,7 @@ const Checkout = () => {
                       borderTopStyle: "solid",
                       borderTopColor: "black",
                       borderCollapse: "collapse",
+                      padding: "0.25rem",
                     }}
                   >
                     {" "}
@@ -149,6 +155,7 @@ const Checkout = () => {
                       borderTopStyle: "solid",
                       borderTopColor: "black",
                       borderCollapse: "collapse",
+                      padding: "0.25rem",
                     }}
                   >
                     {" "}
@@ -165,6 +172,7 @@ const Checkout = () => {
                       borderTopStyle: "solid",
                       borderTopColor: "black",
                       borderCollapse: "collapse",
+                      padding: "0.25rem",
                     }}
                   >
                     {" "}
